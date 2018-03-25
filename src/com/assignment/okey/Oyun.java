@@ -1,7 +1,6 @@
 package com.assignment.okey;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Random;
@@ -28,7 +27,6 @@ public class Oyun {
 	
 	public static int okeyBelirle(Integer gosterge){
 		int mod = gosterge%13;
-		int div = gosterge/13;
 		int okey = 0;
 		
 		//Gosterge'nin 13 olmasý durumu kontrolü
@@ -68,7 +66,7 @@ public class Oyun {
 		
 	}
 	
-	@SuppressWarnings({ "rawtypes", "null" })
+
 	public static int[] sonucaEnYakinOyuncu(ArrayList<Integer> Sonuc){
 		int min = 15;
 		int index = 0;
